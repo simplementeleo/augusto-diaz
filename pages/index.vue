@@ -1,0 +1,27 @@
+<template>
+  <div class="container mx-auto px-8 sm:px-20 lg:px-32  mt-24">
+    <Home />
+    <AboutMe data-aos="fade-up" />
+    <Portfolio data-aos="fade-up" />
+    <Contact data-aos="fade-up" />
+    <Footer />
+  </div>
+</template>
+
+<script>
+import Home from '../components/Home'
+import AboutMe from '../components/AboutMe'
+import Portfolio from '../components/Portfolio'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
+export default {
+  components: {
+    Home,
+    AboutMe,
+    Portfolio,
+    Contact,
+    Footer
+  }
+}
+</script>
+
