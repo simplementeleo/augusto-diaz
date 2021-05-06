@@ -33,7 +33,7 @@
           </article>
         </div>
         <div>
-          <img src="../static/images/me.jpg" width="100%" height="100%" alt="Image Me">
+          <!-- <img src="../static/images/me.jpg" width="100%" height="100%" alt="Image Me"> -->
         </div>
       </section>
     </container-y>

@@ -18,9 +18,9 @@
               <span v-for="i in 3" class="mr-3 text-gray-500" :key="i">Tech {{i}}</span>
             </div>
           </div>
-          <div class="absolute top-0 left-0 w-full h-full rounded-md bg-gradient">
+          <!-- <div class="absolute top-0 left-0 w-full h-full rounded-md bg-gradient">
             <img src="../static/images/me.jpg" class="rounded-md object-cover h-64" width="100%" alt="Project">
-          </div>
+          </div> -->
         </div>
       </div>
     </container-y>
