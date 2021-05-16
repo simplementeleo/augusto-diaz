@@ -1,21 +1,23 @@
 <template>
-  <div>
+  <div id="portfolio">
     <container-y>
       <title-section data-aos="fade-up" n="2" title="Portafolio" />
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 md:w-auto">
-        <div class="card transform hover:-translate-y-2 p-6 rounded-md shadow-2xl relative h-64 duration-300 cursor-pointer w-full md:max-w-sm" v-for="(i, index) in 6" :key="index">
+        <div class="card transform hover:-translate-y-2 p-6 rounded-md shadow-2xl relative h-64 duration-300 cursor-pointer w-full md:max-w-sm" v-for="(work, index) in works" :key="index">
           <div class="top-0 right-0 p-6 absolute flex z-20">
-            <a href="#" class="text-lg outline-dashed p-1 mr-4">
+            <a v-show="work.git.isActive" target="_blank" :href="work.git.url" class="text-lg outline-dashed p-1 mr-4">
               <i class="fa fa-github"></i>
             </a>
-            <a href="#" class="text-lg outline-dashed p-1">
+            <a target="_blank" :href="work.demo" class="text-lg outline-dashed p-1">
               <i class="fa fa-external-link"></i>
             </a>
           </div>
           <div class="bottom-0 left-0 w-full absolute console p-6 z-20">
-            <h1 class="text-xl">Nombre del proyecto</h1>
+            <h1 class="text-xl">{{ work.title }}</h1>
             <div class="flex text-sm">
-              <span v-for="i in 3" class="mr-3 text-gray-500" :key="i">Tech {{i}}</span>
+              <span v-for="(tech, index) in work.techs" class="mr-3 text-xs text-gray-500" :key="index">
+                {{ tech }} 
+              </span>
             </div>
           </div>
           <!-- <div class="absolute top-0 left-0 w-full h-full rounded-md bg-gradient">
@@ -56,6 +58,22 @@
     components: {
       TitleSection,
       ContainerY
+    },
+    data() {
+      return {
+        works: [
+          {
+            git: { url: '#', isActive: false},
+            demo: 'https://ibizawashservice.com/',
+            title: 'Landing Page | Ibiza',
+            techs: [
+              'CDN Vue.js',
+              'Node.js',
+              'Nodemailer'
+            ]
+          }
+        ]
+      }
     }
   }
 

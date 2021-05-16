@@ -1,7 +1,7 @@
 <template>
   <div>
     <container-y>
-      <section class="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <section id="aboutme" class="grid grid-cols-1 md:grid-cols-1 gap-10">
         <div>
           <title-section n="1" title="Sobre Mi" />
           <article>

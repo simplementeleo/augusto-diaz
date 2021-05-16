@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="contact">
         <container-y class="mb-56">
             <title-section n="3" title="Contactame" class="mx-auto text-center"/>
             <p class="text-center max-w-xl mx-auto text-base sm:text-lg">Estoy buscando nuevas oportunidades, mi bandeja de entrada siempre está abierta. Ya sea que tenga una pregunta o simplemente quiera saludar, ¡haré todo lo posible para responderle!</p>

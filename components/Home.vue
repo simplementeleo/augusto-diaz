@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="home">
     <BoxBorder3d class="py-12 px-5 sm:px-10 md:px-40 max-w-full lg:max-w-2xl mx-auto mt-40 shadow-ani duration-300">
       <MeName />
     </BoxBorder3d>

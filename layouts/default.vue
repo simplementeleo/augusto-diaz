@@ -8,10 +8,10 @@
 
 <script>
   import aosMixin from '../mixins/aos'
-  import Navigation from './Navigation' 
+  import Navigation from './Navigation'
   import ElementsFixed from './ElementsFixed'
   export default {
-     mixins: [aosMixin],
+    mixins: [aosMixin],
     components: {
       Navigation,
       ElementsFixed
@@ -24,24 +24,28 @@
   @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
   :root {
     --color-primary: #eee;
     --color-secondary: #00ffff;
-    --bg-primary: #0a0b35; /* #4146df-#0a0b35 - A>= 040527*/
+    --bg-primary: #0a0b35;
+    /* #4146df-#0a0b35 - A>= 040527*/
 
   }
 
   html {
     background: var(--bg-primary);
     color: var(--color-primary);
-    /* font-family: 'Raleway', sans-serif; */
     font-family: 'Fira Sans', sans-serif;
+    scroll-behavior: smooth;
   }
+
   p {
     @apply text-lg leading-loose mt-3 text-gray-500;
   }
+
   .console {
-font-family: 'Inconsolata', monospace;
+    font-family: 'Inconsolata', monospace;
   }
 
   .fade {

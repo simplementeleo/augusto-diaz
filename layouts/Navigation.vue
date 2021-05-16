@@ -13,31 +13,34 @@
             </a>
           </li>
         </ul>
-        <div class="block md:hidden"> 
-          menu
-        </div>
+        <MenuResponsive/>
       </nav>
     </header>
   </div>
 </template>
 <script>
+import MenuResponsive from '../components/Utilities/MenuResponsive'
+
   export default {
+    components: {
+      MenuResponsive
+    },
     data() {
       return {
         navItems: [{
-            url: '#',
+            url: '#home',
             name: 'Inicio'
           },
           {
-            url: '#',
+            url: '#aboutme',
             name: 'Sobre mi'
           },
           {
-            url: '#',
+            url: '#portfolio',
             name: 'Portafolio'
           },
           {
-            url: '#',
+            url: '#contact',
             name: 'Contacto'
           },
         ],
