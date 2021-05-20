@@ -1,5 +1,5 @@
 <template>
-  <div class="block md:hidden text-white menu">
+  <div class="flex items-center justify-center text-white md:hidden">
     <button @click="isActive" :class="['burguer', toggle ? ['outline-dashed', 'active'] : '', ]">
       <span class="block md:hidden" v-for="i in 3" :key="i"></span>
     </button>
@@ -51,11 +51,6 @@
 
 </script>
 <style scoped>
-  .menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
 
   .burguer {
     display: flex;

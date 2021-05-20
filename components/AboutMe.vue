@@ -6,14 +6,11 @@
           <title-section n="1" title="Sobre Mi" />
           <article>
             <p class="text-md sm:text-lg">
-              Hola! Soy Augusto, egresado como Ingeniero en Informática de la <a href="#"
-                class="text-blue-300 font-bold underline">UPTEB.</a> Me aplico en el Diseño y Programación de
-              Aplicaciones Web, tomando en cuenta que mi fuerte es el front-end. Soy minimalista, un buen diseño no
-              requiere de exceso de elementos. Sin embargo la meta es complacer al cliente.
+              Hola! Soy Augusto. <br/> Me aplico en el Diseño y Programación de
+              Aplicaciones Web, tomando en cuenta que mi fuerte es el front-end. Soy minimalista, un buen diseño no requiere de exceso de elementos. Sin embargo la meta es complacer al cliente.
             </p>
             <p class="text-md sm:text-lg">
-              Además creo firmemente que una relación profesional se debe basar en honestidad y transparencia. La
-              constancia de aprender me mantiene vigente, actual y me ayuda a crecer como profesional.
+              Además creo firmemente que una relación profesional se debe basar en honestidad y transparencia. La constancia de aprender me mantiene vigente, actual y me ayuda a crecer como profesional.
             </p>
             <p class="text-md sm:text-lg">
               Actualmente he trabajado con estas tecnologías:
@@ -24,7 +21,7 @@
                 <li>(S)CSS</li>
                 <li>Javascript (ES6+)</li>
               </div>
-              <div class="ml-10">
+              <div class="ml-5 md:ml-10">
                 <li>Node.js</li>
                 <li>TailwindCSS</li>
                 <li>Bootstrap</li>

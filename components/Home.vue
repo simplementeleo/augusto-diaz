@@ -3,7 +3,7 @@
     <BoxBorder3d class="py-12 px-5 sm:px-10 md:px-40 max-w-full lg:max-w-2xl mx-auto mt-40 shadow-ani duration-300">
       <MeName />
     </BoxBorder3d>
-    <h1 data-aos="fade-up" data-aos-delay="5000" class="text-center mt-5 font-bold text-md console">Front-end Developer Junior</h1>
+    <h1 data-aos="fade-up" data-aos-delay="5000" class="text-center mt-5 font-bold text-md console">Front-end Developer</h1>
   </div>
 </template>
 <script>
