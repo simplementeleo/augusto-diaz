@@ -35,11 +35,11 @@
     stroke-dasharray: 1000;
     stroke-dashoffset: 0;
     animation: dash 5s ease-in-out forwards;
-    animation-delay: 5s;
+    animation-delay: 3s;
   }
 
   #svgGroup {
-    animation: fillanim .2s ease-in-out forwards 6.3s;
+    animation: fillanim .2s ease-in-out forwards 5.3s;
   }
   @media (max-width: 767px) {
     .path {
@@ -49,7 +49,7 @@
     animation-delay: 1s;
   }
     #svgGroup {
-    animation: fillanim .2s ease-in-out forwards 3s;
+    animation: fillanim .2s ease-in-out forwards 2s;
   }
   }
 
