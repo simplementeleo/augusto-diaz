@@ -25,7 +25,7 @@
     color: var(--color-secondary);
   }
   .shadow-ani {
-    animation: 1s showBox forwards ease-in-out 4s;
+    animation: 1s showBox forwards ease-in-out 3s;
   }
   @keyframes showBox {
     to {

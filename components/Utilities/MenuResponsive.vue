@@ -6,7 +6,7 @@
     <div v-show="toggle" @click="isActive" class="fixed card-nav bottom-0 right-0 w-full h-full">
        <div class="absolute bottom-0 bg-blue-500 card w-full flex flex-col justify-center items-center">
            <ul>
-               <li v-for="(item, index) in items" :key="index"> 
+               <li v-for="(item, index) in itemsNav" :key="index"> 
                    <a :href="item.url" class="p-3 mb-4 block outline-dashed">
                        <span class="secondary">0{{ index + 1 }}</span> {{ item.name }}
                    </a>
@@ -18,34 +18,20 @@
 
 </template>
 <script>
+import { mapState } from 'vuex'
   export default {
       data() {
           return {
               toggle: false,
-              items: [
-                  {
-                      url: '#home',
-                      name: 'Inicio'
-                  },
-                  {
-                      url: '#aboutme',
-                      name: 'Sobre Mi'
-                  },
-                  {
-                      url: '#portfolio',
-                      name: 'Portafolio'
-                  },
-                  {
-                      url: '#contact',
-                      name: 'Contacto'
-                  }
-              ]
           }
       },
       methods: {
           isActive() {
               this.toggle = !this.toggle
           }
+      },
+      computed: {
+        ...mapState(['itemsNav'])
       }
   }
 
@@ -113,4 +99,9 @@
     .secondary {
         color: var(--color-secondary);
     }
+     .btn-cv {
+    border: 1px solid var(--color-secondary);
+    padding: .5rem 1rem;
+    color: var(--color-secondary);
+  }
 </style>

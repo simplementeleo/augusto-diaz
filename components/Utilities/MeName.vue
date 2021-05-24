@@ -39,7 +39,7 @@
   }
 
   #svgGroup {
-    animation: fillanim .2s ease-in-out forwards 8.3s;
+    animation: fillanim .2s ease-in-out forwards 6.3s;
   }
   @media (max-width: 767px) {
     .path {
@@ -49,7 +49,7 @@
     animation-delay: 1s;
   }
     #svgGroup {
-    animation: fillanim .2s ease-in-out forwards 5s;
+    animation: fillanim .2s ease-in-out forwards 3s;
   }
   }
 
