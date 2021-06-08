@@ -2,15 +2,14 @@
   <div>
     <header class="fixed w-full top-0 left-0 z-30 console">
       <div class="absolute w-full h-full blur top-0 left-0"></div>
-      <nav class="flex justify-between px-8 md:px-16 py-5 md:py-0 relative">
+      <nav class="flex justify-between px-8 md:px-16 py-5 md:py-8 relative">
         <div data-aos="fade-down" class="logo text-2xl md:text-6xl text-gray-100 uppercase">
-          A
+          <!-- A -->
         </div>
         <ul class="items-center hidden md:flex">
           <li data-aos="fade-down" v-for="(item, index, key) in itemsNav" :data-aos-delay="(index + 9)+'00'" :key="key">
             <a :href="item.url" :class="['py-3', 'px-5', 'outline-dashed', item.name === 'Curriculo' ? 'btn-cv' : '']">
               <span>0{{ index }}.</span> {{ item.name }}
-              {{ hello }}
             </a>
           </li>
         </ul>
@@ -29,27 +28,6 @@ import { mapState } from 'vuex'
     },
     data() {
       return {
-        navItems: [{
-            url: '#home',
-            name: 'Inicio'
-          },
-          {
-            url: '#aboutme',
-            name: 'Sobre mi'
-          },
-          {
-            url: '#portfolio',
-            name: 'Portafolio'
-          },
-          {
-            url: '#contact',
-            name: 'Contacto'
-          },
-          {
-            url: '#',
-            name: 'Curriculo'
-          }
-        ],
         show: true
       }
     },

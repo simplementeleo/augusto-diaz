@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-8 sm:px-20 lg:px-32  mt-24">
+  <div class="mt-24">
     <Home />
     <AboutMe data-aos="fade-up" />
     <Portfolio data-aos="fade-up" />

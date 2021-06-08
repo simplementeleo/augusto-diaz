@@ -1,7 +1,8 @@
 <template>
   <div>
     <container-y>
-      <section id="aboutme" class="grid grid-cols-1 md:grid-cols-1 gap-10">
+     <container-x>
+        <section id="aboutme" class="grid grid-cols-1 md:grid-cols-1 gap-10">
         <div>
           <title-section n="1" title="Sobre Mi" />
           <article>
@@ -33,16 +34,19 @@
           <!-- <img src="../static/images/me.jpg" width="100%" height="100%" alt="Image Me"> -->
         </div>
       </section>
+     </container-x>
     </container-y>
   </div>
 </template>
 <script>
   import TitleSection from '../components/Utilities/Title'
   import ContainerY from '../components/Utilities/Container-y'
+import ContainerX from '../components/Utilities/Container-x'
   export default {
     components: {
       TitleSection,
-      ContainerY
+      ContainerY,
+      ContainerX
     }
   }
 

@@ -1,7 +1,8 @@
 <template>
     <div id="contact">
         <container-y class="mb-56">
-            <title-section n="3" title="Contactame" class="mx-auto text-center"/>
+          <container-x>
+                <title-section n="3" title="Contactame" class="mx-auto text-center"/>
             <p class="text-center max-w-xl mx-auto text-base sm:text-lg">Estoy buscando nuevas oportunidades, mi bandeja de entrada siempre está abierta. Ya sea que tenga una pregunta o simplemente quiera saludar, ¡haré todo lo posible para responderle!</p>
             <div :class="[formActive ? ['max-w-sm', 'mx-auto', 'border-dashed', 'p-5', 'md:p-10', 'mt-12'] : 'w-full']">
                 <form v-if="formActive" class="flex flex-col mx-auto">
@@ -16,12 +17,14 @@
                     Enviar
                </button>
             </div>
+          </container-x>
         </container-y>
     </div>
 </template>
 <script>
 import ContainerY from '../components/Utilities/Container-y'
 import TitleSection from '../components/Utilities/Title'
+import ContainerX from './Utilities/Container-x'
 export default {
     data() {
         return {
@@ -30,7 +33,8 @@ export default {
     },
     components: {
         ContainerY,
-        TitleSection
+        TitleSection,
+        ContainerX
     }
 }
 </script>

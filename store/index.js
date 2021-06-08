@@ -14,10 +14,7 @@ export const state = () => ({
     {
       url: '#contact',
       name: 'Contacto'
-    },
-    {
-      url: '#',
-      name: 'Curriculo'
     }
+ 
   ]
 })

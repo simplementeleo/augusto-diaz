@@ -29,6 +29,7 @@
     --color-primary: #eee;
     --color-secondary: #00ffff;
     --bg-primary: #0a0b35;
+    /* #041886 */
     /* #4146df-#0a0b35 - A>= 040527*/
 
   }
