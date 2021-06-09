@@ -10,9 +10,9 @@
                     <input maxlength="20" class="outline-dashed  p-4 text-gray-500 mt-5" type="text" placeholder="Correo">
                     <textarea class="outline-dashed  p-4 text-gray-500 mt-5" placeholder="Escribe tu mensaje aquí..." cols="18" rows="10" maxlength="300"></textarea>
                 </form>
-               <button v-if="!formActive" class="btn-main transform hover:-translate-y-1 rounded-md py-3 px-10 duration-300 block mt-10 mx-auto outline-dashed" @click="formActive = !formActive">
+               <a href="mailto:leonellizardiad@gmail.com?subject=Hola%20Augusto!" v-if="!formActive"  class="btn-main transform hover:-translate-y-1 rounded-md py-3 px-10 duration-300 block mt-10 mx-auto outline-dashed max-w-xs text-center">
                     Di Hola!
-               </button>
+               </a>
                 <button v-else class="btn-main transform hover:-translate-y-1 rounded-md py-3 px-10 duration-300 block mt-10 mx-auto outline-dashed">
                     Enviar
                </button>

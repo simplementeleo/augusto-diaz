@@ -3,8 +3,7 @@
     <container-x>
       <footer>
         <a href="#"
-          class="text-center block max-w-xs mx-auto outline-dashed console text-gray-500 text-md p-2 mb-12">Desarrollado
-          por Augusto Díaz</a>
+          class="text-center block max-w-xs mx-auto outline-dashed console text-gray-500 text-md p-2 mb-12">Desarrollado con <i class="fa fa-heart text-red-500"></i> & NuxtJS</a>
         <div class="flex pb-5 pt-3 justify-center mx-auto md:hidden">
           <a v-for="(item, index) in items" :href="item.href" target="_blank" class="p-3 m-3 outline-dashed"
             :key="index">

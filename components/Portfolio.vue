@@ -89,35 +89,37 @@
           },
           {
             git: { url: '#', isActive: false},
-            codepen: { url: '#', isActive: true},
+            codepen: { url: 'https://codepen.io/codezardi/pen/MWpBVOb', isActive: true},
             demo: { url: '#', isActive: false},
-            title: 'UI Login',
+            title: 'UI - Contact Us',
             techs: [
               'HTML',
               'CSS',
+              'TailwindCSS'
             ],
              image: '2.png'
           },
            {
             git: { url: '#', isActive: false},
-            codepen: { url: '#', isActive: true},
+            codepen: { url: 'https://codepen.io/codezardi/full/gOggjMB', isActive: true},
             demo: { url: '#', isActive: false},
-            title: 'UI Testimonials',
+            title: 'UI - Testimonials',
             techs: [
               'CDN Vue.js',
               'HTML',
-              'CSS'
+              'CSS',
+              'TailwindCSS'
             ],
              image: '3.png'
           },
            {
             git: { url: '#', isActive: false},
-            codepen: { url: '#', isActive: true},
+            codepen: { url: 'https://codepen.io/codezardi/pen/ExZxdrP', isActive: true},
             demo: { url: '#', isActive: false},
-            title: 'UI Login & Register',
+            title: 'UI - Login & Register',
             techs: [
               'HTML',
-              'CSS',
+              'SCSS',
               'JS'
             ],
              image: '4.png'
